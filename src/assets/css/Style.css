@@ -1,0 +1,110 @@
+.bgColor {
+  /* background: #2ea55c; */
+  width: 100%;
+  position: "fixed";
+}
+.MuiDrawer-paper {
+  top: 70px !important;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+.ml-3 {
+  margin-left: 30px;
+}
+.Fullwidth {
+  width: 100%;
+}
+.pullRight {
+  margin: 0px auto 20px auto;
+  display: table;
+
+  /* float:Right;
+  margin-top: 20px;margin-right: 20px;} */
+}
+/* .TabBg {
+  background: -webkit-linear-gradient(
+    left,
+    #2ea55c 0%,
+    rgba(111, 161, 123, 1) 100%
+  );
+} */
+.form {
+  margin-top: 0 !important;
+  margin-right: 20px !important;
+}
+.form InputLabel {
+  padding: 10px 25px;
+}
+.ImgDiv {
+  margin: 40px auto;
+  display: table;
+}
+.Heading {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.TabHeading {
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.ResumeLink {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+.ResumeLink:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+.ListItem {
+  background-color: #2ea55c;
+  color: #333;
+}
+.paginationStyle {
+  text-align: center;
+  margin-top: 50px;
+}
+.PaginationUl {
+  justify-content: center;
+}
+.dilogtile {
+  background: "rgb(255 251 235)";
+}
+.Outbox {
+  width: 400px !important;
+}
+.outboxDiv {
+  border: 0.5px solid #e0dcdc;
+  border-radius: 20px;
+  padding: 25px;
+  background-color: #fff;
+}
+.para {
+  color: #717171;
+  font-size: 16px;
+}
+.TextHeading {
+  margin: 20px 5px;
+  font-size: 24px;
+}
+.Tabbing {
+  background-color: #fff;
+}
+.ListStyle {
+  display: flex;
+  list-style: none;
+}
+.ListStyle li {
+  padding: 0 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
